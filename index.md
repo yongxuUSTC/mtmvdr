@@ -6,9 +6,5 @@ submitted to Interspeech2020, Yong XU et al., Tencent AI lab, Bellevue, USA
 #Demo1:
 
 <img src="audio/mix.png" width="200" height="100"> <img src="audio/clean.png" width="200" height="100">
-  <audio preload="auto" autoplay="autoplay">
-    <source src="audio/mix.wav" type="audio/wav" />
-  </audio>
-    <audio preload="auto" autoplay="autoplay">
-    <source src="audio/clean.wav" type="audio/wav" />
-  </audio>
+  <audio preload="metadata"> <source src="audio/mix.wav" type="audio/wav" /> </audio>
+  <audio preload="metadata"> <source src="audio/clean.wav" type="audio/wav" /> </audio>
