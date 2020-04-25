@@ -5,6 +5,7 @@ submitted to Interspeech2020, Yong XU et al., Tencent AI lab, Bellevue, USA
 
 #Demo1:
 
-<img src="audio/mix.png" width="300" height="150" name="mixture"> <img src="audio/clean.png" width="300" height="150">
-  <audio src="audio/mix.wav" controls preload name="mixture"></audio>
-  <audio src="audio/clean.wav" controls preload name="clean"></audio>
+<img src="audio/mix.png" width="300" height="150"> <img src="audio/clean.png" width="300" height="150">
+mixture                                clean
+  <audio src="audio/mix.wav" controls preload></audio>
+  <audio src="audio/clean.wav" controls preload></audio>
