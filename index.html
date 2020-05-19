@@ -33,20 +33,20 @@
 </table>
 <p>&nbsp;</p>
 <p><strong>Demo 3 (waveforms aligned with the spectrograms shown in Fig. 2 of the paper): </strong></p>
-<p><img src="audio/relu_mask.png" width="263" height="121" /> <img src="audio/cm.png" width="269" height="121" /> <img src="audio/cm_mvdr.png" width="273" height="122" /></p>
-<table width="814" border="1">
+<p><img src="audio/mix.png" width="256" height="123" /> <img src="audio/relu_mask.png" width="251" height="121" /> <img src="audio/cm.png" width="269" height="121" /> <img src="audio/cm_mvdr.png" width="273" height="122" /></p>
+<table width="1068" border="1">
   <tr>
-    <td width="248">ReLU mask w/o MVDR (baseline)  <a href="audio/relu_mask.wav">wav</a></td>
-    <td width="275">Prop. Complex mask (CM) w/o MVDR <a href="audio/cm.wav">wav</a></td>
-    <td width="269">Complex mask MVDR Joint Train <a href="audio/cm_mvdr.wav">wav</a></td>
+    <td width="248">Mix (2-SPK overlapped + non-stationary additive noise) <a href="audio/mix.wav">wav</a></td>
+    <td width="248">ReLU mask w/o MVDR (baseline) (has non-linear distortion, lost some details on the high freqency) <a href="audio/relu_mask.wav">wav</a></td>
+    <td width="275">Prop. Complex mask (CM) w/o MVDR (although better but still has non-linear distortion, also lost some details on the high freqency) <a href="audio/cm.wav">wav</a></td>
+    <td width="269">Complex mask MVDR Joint Train  (distortionless is firstly guaranteed, but with some residual noise) <a href="audio/cm_mvdr.wav">wav</a></td>
   </tr>
 </table>
-<p><img src="audio/cm_multi-tab_mvdr.png" width="264" height="123" /> <img src="audio/clean.png" width="267" height="123" />  <img src="audio/mix.png" width="278" height="123" /></p>
-<table width="818" border="1">
+<p><img src="audio/cm_multi-tab_mvdr.png" width="264" height="123" /> <img src="audio/clean.png" width="277" height="123" /></p>
+<table width="548" border="1">
   <tr>
-    <td width="253" height="23"><p>Prop.  CM Multi-tap MVDR JT <a href="audio/cm_multi-tab_mvdr.wav">wav</a></p></td>
+    <td width="253" height="23"><p>Prop.  CM Multi-tap MVDR Joint trained (distortionless is firstly guaranteed, also less residual noise) <a href="audio/cm_multi-tab_mvdr.wav">wav</a></p></td>
     <td width="277"><p>Reverb Clean (Reference clean) <a href="audio/clean.wav">wav</a></p></td>
-    <td width="266"><p>Mix (2-SPK overlapped + noise) <a href="audio/mix.wav">wav</a></p></td>
   </tr>
 </table>
 <p>&nbsp;</p>
