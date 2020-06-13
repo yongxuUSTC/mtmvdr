@@ -10,7 +10,7 @@
 <p>submitted to Interspeech2020,   <strong>Yong XU</strong> (yong.xu.ustc@gmail.com), Meng Yu, Shixiong Zhang, Lianwu Chen, Chao Weng, Jianming Liu, Dong Yu, <strong>Tencent AI lab, Bellevue, WA, USA</strong></p>
 <p><img src="system_overview.png" width="971" height="443" /></p>
 <p>Purely NN based speech separation and enhancement methods, although can achieve good objective scores, inevitably cause <strong>nonlinear speech distortions</strong> that are harmful for ASR [5]. On the other hand, the MVDR beamformer with NN-predicted masks, although can significantly reduce speech distortions, has limited noise reduction capability. But our proposed <strong>CM-based multi-tap MVDR </strong>could achieve non-distortion and lower residual noise. For the <strong>commercial general-purpose ASR</strong> engine, non-distortion is more important than no residual noise, considering that the acoustic model is already robust enough to the mild-level noise (but NOT robust to the non-linear distortion introduced by NN).</p>
-<p><strong>Demo 1 (waveforms aligned with the spectrograms shown in Fig. 2 of the paper): </strong></p>
+<p><strong>Demo 1 (waveforms aligned with the spectrograms shown in Fig. 2 of the paper): </strong> <strong>[</strong>Sorry for that the demos below are all in Mandarin]<strong>:</strong></p>
 <p><img src="audio/mix.png" width="256" height="123" /> <img src="audio/relu_mask.png" width="251" height="121" /> <img src="audio/cm.png" width="269" height="121" /> <img src="audio/cm_mvdr.png" width="273" height="122" /></p>
 <table width="1068" border="1">
   <tr>
@@ -28,7 +28,7 @@
   </tr>
 </table>
 <p>&nbsp;</p>
-<p><strong>Demo2: Simulated 2-speaker mixture for target speech</strong> <strong>separation</strong> <strong>[</strong>Sorry for that the demos below are all in Mandarin]<strong>:</strong></p>
+<p><strong>Demo2: Simulated 2-speaker mixture for target speech</strong> <strong>separation</strong></p>
 <p><img src="audio_2spk/10-10_mix.png" width="263" height="136" /> <img src="audio_2spk/10-10_nn_relu_baseline.png" width="271" height="137" /> <img src="audio_2spk/10-10_prop_cm_mtmvdr.png" width="280" height="139" /> <img src="audio_2spk/10-10_reverb_clean.png" width="265" height="140" /></p>
 <table width="1094" border="1">
   <tr>
