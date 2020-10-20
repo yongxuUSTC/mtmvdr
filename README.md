@@ -1,5 +1,5 @@
 # Complex-valued mask based multi-tap MVDR jointly trained with deep learning method
-Demo for paper "Neural Spatio-Temporal Beamformer for Target Speech Separation" submitted to INTERSPEECH2020
+Demo for paper "Neural Spatio-Temporal Beamformer for Target Speech Separation" accepted to INTERSPEECH2020
 
 Demo website: https://yongxuustc.github.io/mtmvdr/
 
